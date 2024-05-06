@@ -1,10 +1,13 @@
 # Node
 .vscode/
-node_modules/
+buttons/
 commands/
-events/Discord/
-src/buttons/
+events/
+node_modules/
+src/
+Ampere-V2.zip
 package-lock.json
+loader.js
 yarn.lock
 LICENSE
 config.js
