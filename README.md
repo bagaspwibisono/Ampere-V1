@@ -23,4 +23,4 @@ Voltz adalah bot Discord yang powerful dan mudah digunakan, dirancang khusus unt
 
 ## Preview
 
-![Preview](https://github.com/bagaspwibisono/Ampere-V1/blob/main/src/img/preview.PNG?raw=true)
+![Preview](https://github.com/bagaspwibisono/Ampere-V1/blob/main/src/img/preview.png?raw=true)
