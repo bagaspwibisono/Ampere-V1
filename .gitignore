@@ -1,15 +1,6 @@
 # Node
+.prettierrc
 .vscode/
-buttons/
-commands/
-events/
-node_modules/
-src/
-Ampere-V2.zip
 package-lock.json
 loader.js
 yarn.lock
-LICENSE
-config.js
-Ampere-V1.zip
-readme-tes.md
