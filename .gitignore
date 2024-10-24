@@ -1,10 +1,9 @@
 # Node
 .prettierrc
 .vscode/
-<<<<<<< HEAD
 buttons/
 commands/
-events/
+events/Discord/*
 node_modules/
 src/
 Ampere-V3-Refresh.zip
@@ -16,8 +15,6 @@ config.js
 process_tools.js
 Ampere-V1.zip
 readme-tes.md
-=======
 package-lock.json
 loader.js
 yarn.lock
->>>>>>> db841859936e99f49fa70c55df1e2420f8adf2fc

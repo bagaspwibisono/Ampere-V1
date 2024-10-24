@@ -8,7 +8,7 @@ global.client = new Client({
 		GatewayIntentBits.GuildMembers,
 		GatewayIntentBits.GuildMessages,
 		GatewayIntentBits.GuildVoiceStates,
-		GatewayIntentBits.MessageContent,
+		GatewayIntentBits.MessageContent
 	],
 	disableMentions: "everyone",
 });
