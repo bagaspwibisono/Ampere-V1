@@ -2,7 +2,7 @@
 	"name": "voltz-bot",
 	"main": "main.js",
 	"author": "Voltac",
-	"version": "1.0.2",
+	"version": "4.1.0",
 	"repository": "https://github.com/voltacdev/Ampere-V1",
 	"description": "Discord music bot.",
 	"scripts": {
