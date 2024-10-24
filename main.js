@@ -1,6 +1,6 @@
 const { Player } = require("discord-player");
 const { Client, GatewayIntentBits } = require("discord.js");
-const { YoutubeiExtractor } = require('discord-player-youtubei');
+const { YoutubeiExtractor } = require("discord-player-youtubei");
 
 global.client = new Client({
 	intents: [
@@ -8,7 +8,7 @@ global.client = new Client({
 		GatewayIntentBits.GuildMembers,
 		GatewayIntentBits.GuildMessages,
 		GatewayIntentBits.GuildVoiceStates,
-		GatewayIntentBits.MessageContent
+		GatewayIntentBits.MessageContent,
 	],
 	disableMentions: "everyone",
 });
@@ -24,7 +24,7 @@ require("./loader");
 
 client.login(client.config.app.token).catch(async (e) => {
 	if (e.message === "Token yang diberikan tidak valid.") {
-		require("./process_tools").throwConfigError(
+		require("./events/proc_file").throwConfigError(
 			"app",
 			"token",
 			"\n\t   ❌ Token yang Diberikan Tidak Valid! ❌ \n\tubah token di file config\n"
